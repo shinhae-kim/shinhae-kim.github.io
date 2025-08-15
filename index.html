@@ -136,16 +136,15 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
 <div class="row mt-3">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4">
-
+            <div class="card-body pt-2 pb-2 px-4"> <!-- reduced top padding -->
                 <div class="row">
-		    <div class="col-md-6 pt-md-0 pt-4 border-top border-light">
-                        
+                    <!-- Education -->
+                    <div class="col-md-6">
                         <div class="row">
-                            <div class="col-12 mx-2 my-1" style="margin-top: -5px !important;">
+                            <div class="col-12 mx-2 my-1">
                                 <h6>Education</h6>
                                 <ul class="list-unstyled mb-1">
-                                    
+
                                     <li class="media mb-1">
                                         <img src="/assets/images/badges/cornell.png" alt="Cornell University" style="width: 18px;" class="mr-1 mt-1">
                                         <div class="media-body">
@@ -157,6 +156,7 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
                                             </div>
                                         </div>
                                     </li>
+
                                     <li class="media mb-1">
                                         <img src="/assets/images/badges/kaist.svg" alt="KAIST" style="width: 18px;" class="mr-1 mt-1">
                                         <div class="media-body">
@@ -169,9 +169,10 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
                                             <div class="small">
                                                 <div><i>"A Survey on Security of Blockchain Smart Contracts: Techniques and Insights"</i></div>
                                             </div>
-				
+                                        </div>
                                     </li>
-                                    <li class="media mb-1" style="margin-bottom: -15px !important;">
+
+                                    <li class="media mb-1">
                                         <img src="/assets/images/badges/handong.png" alt="Handong" style="width: 18px;" class="mr-1 mt-1">
                                         <div class="media-body">
                                             <div>Handong Global University</div>
@@ -183,67 +184,63 @@ document.querySelectorAll(".root-path-text").forEach(function(element){
                                             <div class="small">
                                                 <div><i>Summa Cum Laude (Major GPA: 4.4/4.5)</i></div>
                                             </div>
-				
+                                        </div>
                                     </li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
-                        
-
-                        
                     </div>
 
-                    <div class="col-md-6 pt-md-0 pt-4 border-top border-light"> 
-                        <div class="mx-2 my-1" style="margin-top: -5px !important;">
-                                <h6>Work Experience</h6>
-                                <ul class="list-unstyled mb-1">
-                                    
-                                    <li class="media mb-1" style="margin-top: 8px; margin-bottom: 12px !important;">
-                                        <div class="media-body">
-                                            <div>National Security Research Institute</div>
-                                            <div class="small"></div>
-                                            <div class="small d-flex">
-                                                <div style="padding-left: 1em">Researcher, Software Security Lab.</div>
-                                                <div class="mt-auto ml-auto no-break"><em>Jan. 2021 - Apr. 2024</em></div>
-                                            </div>
-                                            <div class="small">
-                                                <div style="padding-left: 1em"><i> (1) Fuzzing for JavaScript Just-in-Time Compiler </i></div>
-                                            </div>
-                                            <div class="small">
-                                                <div style="padding-left: 1em" ><i> (2) Static Variant Analysis for Chrome Vulnerabilities </i></div>
-                                            </div>
+                    <!-- Work Experience -->
+                    <div class="col-md-6 pt-md-0 pt-4"> <!-- removed border-top, added spacing for mobile only -->
+                        <div class="mx-2 my-1">
+                            <h6>Work Experience</h6>
+                            <ul class="list-unstyled mb-1">
 
-                                            <div class="small">
-                                                <div style="padding-left: 1em"><i> (3) Vulnerability Analysis of National Java Web Framework </i></div>
-                                            </div>
-				        </div>
-                                    </li>
-                                    <li class="media mb-1">
-                                        <div class="media-body" style="margin-bottom: -15px !important;">
-                                            <div>National Security Research Institute</div>
-                                            <div class="small"></div>
-                                            <div class="small d-flex">
-                                                <div style="padding-left: 1em">Researcher, Quality Assurance Lab.</div>
-                                                <div class="mt-auto ml-auto no-break"><em>Dec. 2019 - Dec. 2020</em></div>
-                                            </div>
-                                            <div class="small">
-                                                <div style="padding-left: 1em"><i> Unit Testing of Safety-Critical Embedded Software </i></div>
-                                            </div>
+                                <li class="media mb-1" style="margin-top: 8px; margin-bottom: 12px !important;">
+                                    <div class="media-body">
+                                        <div>National Security Research Institute</div>
+                                        <div class="small"></div>
+                                        <div class="small d-flex">
+                                            <div style="padding-left: 1em">Researcher, Software Security Lab.</div>
+                                            <div class="mt-auto ml-auto no-break"><em>Jan. 2021 - Apr. 2024</em></div>
                                         </div>
-                                    </li>
-                  
+                                        <div class="small">
+                                            <div style="padding-left: 1em"><i>(1) Fuzzing for JavaScript Just-in-Time Compiler</i></div>
+                                        </div>
+                                        <div class="small">
+                                            <div style="padding-left: 1em"><i>(2) Static Variant Analysis for Chrome Vulnerabilities</i></div>
+                                        </div>
+                                        <div class="small">
+                                            <div style="padding-left: 1em"><i>(3) Vulnerability Analysis of National Java Web Framework</i></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="media mb-1">
+                                    <div class="media-body">
+                                        <div>National Security Research Institute</div>
+                                        <div class="small"></div>
+                                        <div class="small d-flex">
+                                            <div style="padding-left: 1em">Researcher, Quality Assurance Lab.</div>
+                                            <div class="mt-auto ml-auto no-break"><em>Dec. 2019 - Dec. 2020</em></div>
+                                        </div>
+                                        <div class="small">
+                                            <div style="padding-left: 1em"><i>Unit Testing of Safety-Critical Embedded Software</i></div>
+                                        </div>
+                                    </div>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
-                    
 
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
+                </div> <!-- end row -->
+            </div> <!-- end card-body -->
+        </div> <!-- end card -->
+    </div> <!-- end col -->
+</div> <!-- end row -->
 
 <div class="my-3 bg-white shadow-sm rounded-sm">
 <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
